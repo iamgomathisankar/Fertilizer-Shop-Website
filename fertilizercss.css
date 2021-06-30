@@ -1,0 +1,174 @@
+body{ 
+     background-color: #91C788; 
+}  
+figure
+{
+    font-weight: bolder ;
+    color: #C64756; 
+    border: 2px groove black; 
+    border-radius: 20px; 
+    margin-top: 5px;
+} 
+.blockquote-footer{
+    color: black;
+}  
+@media (max-width:578px){
+    .heading{
+        font-size: 30px !important;
+    }
+    .qimg{
+        margin-top: 20px !important; 
+        margin-left: 102px !important;
+    } 
+    .pagi{
+        position: absolute;
+        left: 26% !important;
+    } 
+    .map{
+        margin-left: 20px !important;
+    } 
+    .search{
+        position: absolute !important;
+    top: 25% !important;
+    left: 7% !important;
+    } 
+    .cart{
+        position: absolute !important;
+        left: 80% !important;
+        top: 39.4% !important;
+    }
+} 
+@media (max-width:990px) {
+    .search{
+        position: absolute;
+    top: 22%;
+    left: 11%;
+    } 
+} 
+@media (max-width:748px) {
+    .search{
+        display: none !important;
+    } 
+}
+.navbar 
+{
+    background-color: #DDFFBC; 
+    border-radius: 20px;
+} 
+.navbar-toggler
+{ 
+    border-radius: 90px;
+    border-bottom-left-radius: 50px; 
+    border: 2px groove black;
+}
+.card {
+    border-radius: 20px; 
+    border-color: rgb(116, 116, 116);
+}  
+.card .mb-3
+{ 
+    
+    display: flex;
+    align-content: center;
+    align-items: center;
+    }   
+    .card-body{
+        background-color: #91C788; 
+        border-radius: 20px; 
+    } 
+.scale{
+    border-radius: 20px; 
+    transition: 1s; 
+} 
+.scale:hover {
+    
+    transform: scale(1.1);
+
+}
+.buynow{
+    background-color: #184D47;
+    color: white;
+} 
+.buynow:hover
+{
+    background-color: #C64756;
+} 
+.nav-link 
+{
+    color: #184D47 !important;
+} 
+.pagi 
+{
+ position: absolute;
+ left: 40%;
+} 
+.page-item:not(:first-child) .page-link {
+    margin-left: 1px;
+} 
+
+.rating 
+{
+border:1px black solid ;
+border-radius: 20px;
+padding: 5px;
+}  
+.namelink:hover
+{
+ color: red;
+}
+/* .bottombtn 
+{
+    width: 200px; 
+    position: absolute;
+    left: 75%; 
+    bottom: 10%;
+} 
+.fixedbtn
+{
+    position: absolute;
+    left: 75%;
+} 
+ @media (max-width:578px) { 
+    .fixedbtn
+{
+    position: absolute;
+    left: 20%;
+} 
+    
+}   */
+.pic
+{
+    width: 450px;
+    height: 300px;
+} 
+.modal-fullscreen {
+    width: auto; } 
+    .cart{
+        position: absolute;
+    left: 91%;
+    top: 22%; 
+    
+    }
+
+
+.move:host([direction="up"]) 
+.move:host([direction="down"]) 
+{
+    overflow: initial;
+    overflow-y: hidden;
+    white-space: initial;}
+    /* {
+    animation-name: move;
+    animation-iteration-count: 1;
+    animation-direction: normal;
+}   */
+/* @keyframes move{ 
+    
+        0%   {top: 100px;} 
+        25%{top:75px}
+        50%{top:50px}
+        75%{top:25px}
+        100% {top: 0px;}
+      
+
+} */
